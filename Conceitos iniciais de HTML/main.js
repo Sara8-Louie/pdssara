@@ -128,3 +128,33 @@ Estão aprendendo Programação
 
 // console.log(contador) //Atualizando informaçoes geralmente
 
+//--------------- AULA 18/05/2026 -----------------
+
+//Utilizando charAt:
+//const texto = "um texto"
+//console.log(texto.charAt(6))
+
+//Utilizando concat:
+//const nome = 'Tiago'
+//const sobrenome = 'Barreto'
+//let nomeCompleto = " "
+
+//const resultado = nomeCompleto.concat(nome, " ", sobrenome)
+//console.log(resultado)
+
+// const texto = "um texto bacana"
+// const resultado = texto.replace(" ", "")
+// console.log(resultado)
+
+// //const texto = "um texto bacana"
+// const resultado = texto.replace(" ", "") replace(" ", "")
+// console.log(resultado)
+
+//Utilizando length:
+// const texto = "um texto bacana"
+// console.log(texto.length)
+
+//Maiusculo e minúsculo:
+// const nome = "Sara Salviano"
+// console.log(nome.toUpperCase()) 
+// console.log(nome.toLowerCase()) 
