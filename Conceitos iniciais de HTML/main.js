@@ -158,3 +158,62 @@ Estão aprendendo Programação
 // const nome = "Sara Salviano"
 // console.log(nome.toUpperCase()) 
 // console.log(nome.toLowerCase()) 
+
+// 🖥️ Aula do dia 08/06
+
+// Trabalhando com Arrays
+// São equivalentes as listas em python
+
+// const nomes = 'Luiz João Fabio'
+// const nomes = ['Luiz', 'João', 'Fabio']
+
+// console.log(nomes)
+
+// const valores = ['um texto', '10', '232.5', 
+// true, null, undefined]
+
+// //para ter acesso ao 232.5:
+// console.log(valores[2])
+
+// const alunos = ['Luiz', 'João', 'Fabio']
+// novoNome = 'Eduardo'
+
+// const alunos = ['Luiz', 'João', 'Fabio']
+// novoNome = 'Eduardo'
+// alunos[0] = novoNome
+// console.log(alunos)
+
+//Inserir informações no array:
+// let alunos = ['Luiz', 'João', 'Fabio']
+// alunos.push('Eduardo')
+// alunos.push('Marcos')
+// console.log(alunos)
+
+//Inserir informações no início do array:
+// let alunos = ['Luiz', 'João', 'Fabio']
+// alunos.unshift('Eduardo')
+// alunos.unshift('Marcos')
+// console.log(alunos)
+
+// //Remover informações do array:
+// let alunos = ['Luiz', 'João', 'Fabio']
+// const alunoRemovido = alunos.pop() //remove o último elemento do array
+// console.log(alunoRemovido) // exibe o elemento removido
+// console.log(alunos) // exibe o array atualizado
+
+// //Remover do inicio do array:
+// let alunos = ['Luiz', 'João', 'Fabio']
+// const alunoRemovido = alunos.shift() //remove o primeiro elemento do array
+// console.log(alunoRemovido) // exibe o elemento removido
+// console.log(alunos) // exibe o array atualizado
+
+//Trabalhando com Funções:
+
+const alunos = ['Jorge']
+alunos.push('Marcos')
+console.log(alunos)
+
+//Programar a função do push:
+
+// um monte de codigo q ele fez e eu
+//nao copiei............ :P
