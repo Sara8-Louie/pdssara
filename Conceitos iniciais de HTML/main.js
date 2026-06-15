@@ -209,11 +209,19 @@ Estão aprendendo Programação
 
 //Trabalhando com Funções:
 
-const alunos = ['Jorge']
-alunos.push('Marcos')
-console.log(alunos)
+//const alunos = ['Jorge']
+//alunos.push('Marcos')
+//console.log(alunos)
 
 //Programar a função do push:
 
-// um monte de codigo q ele fez e eu
-//nao copiei............ :P
+// let alunos = ['Jorge']
+// const novoAluno = 'Marcos'
+// const tamanho = alunos.length
+// alunos[tamanho] = novoAluno
+// console.log(alunos)
+
+// let alunos = ['Jorge']
+
+
+
