@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Tarefas</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            background:#f4f4f4;
+        }
+
+        .dark{
+            background:black;
+            color:white;
+        }
+
+        .concluida{
+            color:gray;
+            text-decoration:line-through;
+        }
+
+        li{
+            margin:10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>Lista de Tarefas 🗐</h1>
+
+<input type="text" id="tarefa">
+<button onclick="adicionar()">Adicionar</button>
+
+<button onclick="modo()"> ☽ Modo Escuro</button>
+
+<ul id="lista"></ul>
+
+<script src="main.js"></script>
+
+</body>
+</html>
