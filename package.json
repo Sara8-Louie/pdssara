@@ -1,0 +1,26 @@
+{
+  "name": "pdssara",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Sara8-Louie/pdssara#readme",
+  "bugs": {
+    "url": "https://github.com/Sara8-Louie/pdssara/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sara8-Louie/pdssara.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1",
+    "nodemon": "^3.1.14"
+  }
+}

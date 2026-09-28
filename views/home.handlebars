@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Essa é a home da minha página! </h1>
+    <p> O nome do usuário é {{user.name}} {{user.surname}} e ele tem
+        {{user.age}} anos de idade.</p>
+
+    <h2>{{palavra}}</h2>
+    {{#if auth}}
+        <p>Voce está atenticado, pode acessar o <a href="/dashboard">dashboard</a></p>
+    {{/if}}
+</body>
+</html>
