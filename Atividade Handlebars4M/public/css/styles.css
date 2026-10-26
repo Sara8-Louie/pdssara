@@ -1,0 +1,36 @@
+
+body {
+    background-color: #f5f2ed;
+    color: #38342f;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: #e5ddd2;
+    padding: 15px;
+}
+
+.produto {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+}
+
+a {
+    color: #75624e;
+}
+
+footer {
+    margin-top: 30px;
+    color: #75624e;
+}
+
+img {
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 10px;
+}
